@@ -1,0 +1,3 @@
+[submodule "external/OTTER-NYC"]
+	path = external/OTTER-NYC
+	url = https://github.com/jinwork00/OTTER-NYC.git

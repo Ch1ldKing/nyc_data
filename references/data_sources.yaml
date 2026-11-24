@@ -1,0 +1,31 @@
+# Full 36-resource and 17-literature directory: docs/research_plan.md
+core:
+  nyc_311:
+    page: https://data.cityofnewyork.us/d/erm2-nwe9
+    api: https://data.cityofnewyork.us/resource/erm2-nwe9.json
+    status: download_script_unverified_live
+  borough_boundaries:
+    page: https://data.cityofnewyork.us/d/gthc-hcne
+    api: https://data.cityofnewyork.us/resource/gthc-hcne.geojson
+    status: download_script_unverified_live
+  weather_pilot:
+    page: https://open-meteo.com/en/docs/historical-weather-api
+    api: https://archive-api.open-meteo.com/v1/archive
+    status: download_script_unverified_live
+    limitation: city_scale_reanalysis_not_real_time
+extensions:
+  floodnet_events: https://data.cityofnewyork.us/d/aq7i-eu5q
+  floodnet_continuous: https://www.floodnet.nyc/data-downloads
+  otter_nyc: https://github.com/jinwork00/OTTER-NYC
+  otter_dataset_unverified: https://doi.org/10.5281/zenodo.22732056
+  mrms: https://www.ncei.noaa.gov/products/precipitation-time-series-explorer
+  asos: https://mesonet.agron.iastate.edu/request/hourlyprecip.phtml
+  dem: https://data.cityofnewyork.us/d/dpc8-z3jc
+  pluto: https://data.cityofnewyork.us/d/64uk-42ks
+  land_cover: https://catalog.data.gov/dataset/land-cover-raster-data-2017-6in-resolution
+  catch_basins: https://data.cityofnewyork.us/d/2w2g-fk3i
+  ms4: https://data.cityofnewyork.us/d/j57c-rqtq
+  green_infrastructure: https://data.cityofnewyork.us/d/df32-vzax
+  stormwater_maps: https://data.cityofnewyork.us/d/9i7c-xyvv
+  acs: https://data.census.gov/
+  svi: https://svi.cdc.gov/dataDownloads/data-download.html

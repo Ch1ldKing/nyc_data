@@ -1,0 +1,25 @@
+mode: real
+seed: 42
+start: '2023-09-01'  # UTC inclusive
+end: '2023-10-01'    # UTC exclusive
+spatial:
+  crs: 'EPSG:26918'
+  grid_m: 1000
+  min_land_fraction: 0.05
+weather:
+  latitude: 40.7128
+  longitude: -74.0060
+  model: era5
+  windows: [1, 3, 6, 24]
+model:
+  train_fraction: 0.60
+  validation_fraction: 0.20
+  max_rows: 4000000
+  random_forest_trees: 80
+  threshold: 0.5
+  algorithms: [logistic, random_forest]
+  static_columns: [elevation_m, catch_basin_count, green_fraction, impervious_fraction, building_fraction, ms4_fraction]
+paths:
+  raw: data/raw/real
+  processed: data/processed/real
+  output: outputs/real
