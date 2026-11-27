@@ -10,3 +10,4 @@ outputs/**
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !outputs/.gitkeep
+fined_imgs/
